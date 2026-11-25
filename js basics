@@ -1,0 +1,66 @@
+var name = "John";
+let age = 25;
+
+if (true) {
+    var name = "Doe";
+    let age = 30;
+}
+console.log(name); 
+console.log(age);  
+
+
+
+const city = "New York";
+city = "Los Angeles"; 
+console.log(city);
+
+
+
+console.log(greeting); // ?
+var greeting = "Hello, world!";
+
+// console.log(message); // ?
+// let message = "Hi there!";
+
+
+function testScope() {
+    if (true) {
+        const pi = 3.14;
+        let radius = 5;
+    }
+
+    console.log(pi);    
+    console.log(radius); 
+}
+
+testScope();
+
+
+solution
+function testScope() {
+    if (true) {
+        const pi = 3.14;
+        let radius = 5;
+  
+
+     console.log(pi);    
+     console.log(radius); 
+     }
+}
+
+testScope();
+
+
+var count = 1;
+
+function increment() {
+    var count = 2;
+    if (true) {
+        var count = 3;
+        count++;
+    }
+    console.log(count);
+}
+increment();
+console.log(count);
+

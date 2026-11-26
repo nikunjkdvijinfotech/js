@@ -103,3 +103,70 @@
 
 // prodect1.display()
 // prodect2.display()
+
+
+
+// Q4
+// // help  AI suggetion
+
+
+// const person = {
+//     name: "nikunj",
+//     age: 20
+// };
+
+// //  const { name:pName , age:pAge}=person;   // one method
+
+// //  console.log(pName)
+// //  console.log(pAge)
+
+// //second method
+// const show = () => {
+//     const { name: Pname, age: pAge } = person
+//     console.log("name", Pname)
+//     console.log("age", pAge)
+// }
+// show();
+
+// // //3 method
+
+// // person.p = () => {
+// //     return person.name + " " + person.age
+// // }
+// // console.log(person.p())
+
+// //  console.log(pName)
+// //  console.log(pAge) 
+
+
+
+//help AI
+
+//  const car ={
+//      make:"toyota",
+//      model:"corolla",
+//      year:2023,
+//      color:"black"
+//  }
+
+//   const {make ,...allinfo}=car
+//    console.log(make)
+//    console.log(allinfo)
+
+
+
+   //
+
+// //4.3
+    // const user={
+    //     name:"john",
+    //     address:{
+    //         city:"boston",
+    //         zip:"02108"
+    //     }
+    // }
+
+    //  const {address:{city}}=user
+    //  console.log(city)
+    
+    // //   5 and 6   i dont  understand
